@@ -16,6 +16,7 @@ dependencies {
 	annotationProcessor 'com.github.therapi:therapi-runtime-javadoc-scribe:0.13.0'
 
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	// https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
 	implementation 'org.springdoc:springdoc-openapi-ui:1.6.8'
 	implementation 'org.springdoc:springdoc-openapi-data-rest:1.6.8'

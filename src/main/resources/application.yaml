@@ -1,0 +1,7 @@
+---
+spring:
+  datasource:
+    url: ${msserverdb_endpoint_url} #jdbc:sqlserver://sqlsrv\\sqlexpress;databaseName=customer
+    username: ${msserverdb_endpoint_username}
+    password: ${msserverdb_endpoint_password}
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver

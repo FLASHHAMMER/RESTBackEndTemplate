@@ -14,8 +14,13 @@ class BackendApplicationTests {
 	private RestEndpoint controller;
 
 	@Test
-	void contextLoads() throws Exception {
-		assertThat(controller).isNotNull();
+	void contextLoads() {
+		assertThat(this.controller).isNotNull();
+	}
+
+	@Test
+	void hello() {
+		assertThat(this.controller.hello()).isEqualTo("Hello man!");
 	}
 
 }
