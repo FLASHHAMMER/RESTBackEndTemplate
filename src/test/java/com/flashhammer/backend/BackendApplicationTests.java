@@ -20,7 +20,7 @@ class BackendApplicationTests {
 
 	@Test
 	void hello() {
-		assertThat(this.controller.hello()).isEqualTo("Hello man!");
+		assertThat(this.controller.hello()).isEqualTo("Hello human!");
 	}
 
 }
